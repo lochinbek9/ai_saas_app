@@ -1,5 +1,4 @@
 /* eslint-disable camelcase */
-export const runtime = 'nodejs';
 import { clerkClient } from "@clerk/nextjs";
 import { WebhookEvent } from "@clerk/nextjs/server";
 import { headers } from "next/headers";
