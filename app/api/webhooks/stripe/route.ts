@@ -1,4 +1,5 @@
 /* eslint-disable camelcase */
+export const runtime = 'nodejs';
 import { createTransaction } from "@/lib/actions/transaction.action";
 import { NextResponse } from "next/server";
 import stripe from "stripe";
